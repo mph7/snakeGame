@@ -52,11 +52,8 @@ function iniciarJogo(){
 			clearInterval(jogo);
 			death();
 			setTimeout(function() {
-				alert("Game Over :(");
+				alert("Game Over.\r\nSnake is Dead.");
 			}, 10)
-			setTimeout(function(){
-				window.location.reload(true);
-			}, 8000)
 		}
 	}
 
